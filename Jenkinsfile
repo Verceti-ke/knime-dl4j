@@ -13,7 +13,7 @@ properties([
 ])
 
 try {
-    knimetools.defaultTychoBuild('org.knime.update.ext.dl4j')
+    /* knimetools.defaultTychoBuild('org.knime.update.ext.dl4j') */
 
     testConfigs = [
         // WorkflowTests: {

@@ -16,15 +16,15 @@ try {
     knimetools.defaultTychoBuild('org.knime.update.ext.dl4j')
 
     testConfigs = [
-        WorkflowTests: {
-            workflowTests.runTests( 
-                dependencies: [
-                    repositories: ['knime-dl4j', 'knime-wide-data', 'knime-filehandling',
-                    'knime-datageneration', 'knime-textprocessing', 'knime-distance',
-                    'knime-r', 'knime-js-base', 'knime-database', 'knime-kerberos'],
-                ]
-            )
-        },
+        // WorkflowTests: {
+        //     workflowTests.runTests( 
+        //         dependencies: [
+        //             repositories: ['knime-dl4j', 'knime-wide-data', 'knime-filehandling',
+        //             'knime-datageneration', 'knime-textprocessing', 'knime-distance',
+        //             'knime-r', 'knime-js-base', 'knime-database', 'knime-kerberos'],
+        //         ]
+        //     )
+        // },
        FilehandlingTests: {
             workflowTests.runFilehandlingTests (
                 dependencies: [

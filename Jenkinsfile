@@ -29,7 +29,7 @@ try {
             workflowTests.runFilehandlingTests (
                 dependencies: [
                     repositories: [
-                        "knime-dl4j", "knime-distance", "knime-js-base", "knime-datageneration"
+                        "knime-dl4j", "knime-distance", "knime-js-base", "knime-datageneration", "knime-r"
                     ]
                 ],
             )
